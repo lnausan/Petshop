@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetShop</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container d-flex justify-content-between align-items-center">
+      <img src="img/logo.png" alt="Logo" class="logo">
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a href="#home" class="nav-link text-gray">Home</a></li>
+          <li class="nav-item"><a href="#produtos" class="nav-link text-gray">Produtos</a></li>
+          <li class="nav-item"><a href="#servicos" class="nav-link text-gray">Serviços</a></li>
+          <li class="nav-item"><a href="#cadastro" class="nav-link text-gray">Cadastro</a></li>
+          <li class="nav-item"><a href="#contato" class="nav-link text-gray">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <img src="img/search-icon.png" alt="Search" class="icon large-icon">
+        <img src="img/notification-icon.png" alt="Notifications" class="icon large-icon">
+      </div>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="text-center">
+    <div class="container">
+      <p class="text-left font-weight-bold">Localização Porto Alegre, RS.</p>
+      <img src="img/home.jpg" alt="Home Image" class="img-fluid">
+    </div>
+  </section>
+
+  <!-- Produtos Section -->
+  <section id="produtos">
+    <div class="container">
+      <h2 class="text-center" style="color: #9A8F2A;">Produtos</h2>
+      <div class="d-flex justify-content-between align-items-center">
+        <button class="btn btn-outline-brown btn-sm">Ração</button>
+        <button class="btn btn-outline-brown btn-sm">Serviços</button>
+        <button class="btn btn-outline-brown btn-sm">Acessórios</button>
+      </div>
+      <div class="highlighted-product mt-4">
+        <img src="img/royal-canin.png" alt="Royal Canin Pomeranian Adulto" class="img-fluid">
+        <div class="highlighted-product-info text-right">
+          <h4>Royal Canin Pomeranian Adulto</h4>
+          <p>Participe da promoção, consulte condições aqui.</p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center mt-4">
+        <h3>Ração</h3>
+        <div class="btn-group">
+          <button class="btn btn-outline-brown btn-sm">Ração Seca</button>
+          <button class="btn btn-outline-brown btn-sm">Ração Úmida</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="img/rc-kitten.png" class="card-img-top" alt="RC Kitten">
+            <div class="card-body text-center">
+              <h5 class="card-title">RC Kitten</h5>
+              <p class="card-text">R$$20,99</p>
+              <button class="btn btn-outline-brown btn-sm">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="img/rc-persian.png" class="card-img-top" alt="RC Persian">
+            <div class="card-body text-center">
+              <h5 class="card-title">RC Persian</h5>
+              <p class="card-text">R$$22,99</p>
+              <button class="btn btn-outline-brown btn-sm">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="img/rc-kitten.png" class="card-img-top" alt="RC Kitten">
+            <div class="card-body text-center">
+              <h5 class="card-title">RC Kitten</h5>
+              <p class="card-text">R$$20,99</p>
+              <button class="btn btn-outline-brown btn-sm">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="img/rc-persian.png" class="card-img-top" alt="RC Persian">
+            <div class="card-body text-center">
+              <h5 class="card-title">RC Persian</h5>
+              <p class="card-text">R$$22,99</p>
+              <button class="btn btn-outline-brown btn-sm">+</button>
+            </div>
+          </div>
+        </div>
+        <!-- Adicione mais produtos conforme necessário -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços Section -->
+  <section id="servicos">
+    <div class="container">
+      <h2 class="text-center" style="color: #9A8F2A;">Serviços</h2>
+      <div class="d-flex justify-content-between align-items-center mt-4">
+        <h3>Serviços</h3>
+        <div class="btn-group">
+          <button class="btn btn-outline-brown btn-sm">Pequeno Porte</button>
+          <button class="btn btn-outline-brown btn-sm">Grande Porte</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="img/servico1.jpg" class="card-img-top" alt="Serviço 1">
+            <div class="card-body text-center">
+              <h5 class="card-title">Banho para Pequeno Porte</h5>
+              <p class="card-text">Serviço de banho completo para animais de pequeno porte, incluindo lavagem, secagem e escovação.</p>
+              <p class="card-text">R$$50,99</p>
+              <button class="btn btn-outline-brown btn-sm">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="img/servico2.jpg" class="card-img-top" alt="Serviço 2">
+            <div class="card-body text-center">
+              <h5 class="card-title">Tosa para Pequeno Porte</h5>
+              <p class="card-text">Serviço de tosa para animais de pequeno porte, incluindo corte de pelos e unhas.</p>
+              <p class="card-text">R$$60,99</p>
+              <button class="btn btn-outline-brown btn-sm">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="img/servico3.jpg" class="card-img-top" alt="Serviço 3">
+            <div class="card-body text-center">
+              <h5 class="card-title">Banho para Grande Porte</h5>
+              <p class="card-text">Serviço de banho completo para animais de grande porte, incluindo lavagem, secagem e escovação.</p>
+              <p class="card-text">R$$80,99</p>
+              <button class="btn btn-outline-brown btn-sm">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-4">
+          <div class="card">
+            <img src="img/servico4.jpg" class="card-img-top" alt="Serviço 4">
+            <div class="card-body text-center">
+              <h5 class="card-title">Tosa para Grande Porte</h5>
+              <p class="card-text">Serviço de tosa para animais de grande porte, incluindo corte de pelos e unhas.</p>
+              <p class="card-text">R$$100,99</p>
+              <button class="btn btn-outline-brown btn-sm">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cadastro Section -->
+  <section id="cadastro">
+    <div class="container">
+      <h2 class="text-center" style="color: #9A8F2A;">Cadastro de usuário</h2>
+      <form>
+        <fieldset>
+          <legend class="text-left">Nome de usuário</legend>
+          <div class="text-center mb-3">
+            <img src="img/user-icon.png" alt="User Icon" class="img-fluid">
+          </div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+          
+          <label for="nomeUsuario">Nome de usuário:</label>
+          <input type="text" id="nomeUsuario" name="nomeUsuario" required>
+          
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+        </fieldset>
+        
+        <fieldset>
+          <legend class="text-left">Nome de PET</legend>
+          <div class="text-center mb-3">
+            <img src="img/pet-icon.png" alt="Pet Icon" class="img-fluid">
+          </div>
+          <label for="nomePet">Nome:</label>
+          <input type="text" id="nomePet" name="nomePet" required>
+          
+          <label for="tipo">Tipo:</label>
+          <input type="text" id="tipo" name="tipo" required>
+          
+          <label for="raca">Raça:</label>
+          <input type="text" id="raca" name="raca" required>
+          
+          <label for="temperamento">Temperamento:</label>
+          <input type="text" id="temperamento" name="temperamento" required>
+        </fieldset>
+        
+        <button type="submit" class="btn btn-brown">Salvar alterações</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Agendamento Section -->
+  <section id="agendamento">
+    <div class="container">
+      <h2 class="text-center" style="color: #9A8F2A;">Agendamento de Serviços</h2>
+      <form>
+        <label for="servico">Escolha o Serviço:</label>
+        <select id="servico" name="servico">
+          <option value="banho">Banho</option>
+          <option value="tosa">Tosa</option>
+          <option value="veterinario">Consulta Veterinária</option>
+        </select>
+        
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data" required>
+        
+        <label for="telebusca">Tele-busca:</label>
+        <input type="checkbox" id="telebusca" name="telebusca">
+        
+        <button type="submit" class="btn btn-brown">Confirmar Agendamento</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 PUCRS PetShop. Todos os direitos reservados.</p>
+      <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#produtos" class="nav-link">Produtos</a></li>
+          <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li class="nav-item"><a href="#cadastro" class="nav-link">Cadastro</a></li>
+          <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
