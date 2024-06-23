@@ -44,16 +44,6 @@ Tecnologias Utilizadas
 - jQuery: Biblioteca JavaScript para manipulação do DOM.
 - Popper.js: Biblioteca para gerenciar elementos de sobreposição como tooltips e dropdowns.
 
-Como Executar o Projeto
-1. Clone o repositório:
-   
-   git clone https://github.com/usuario/pucrs-petshop.git
-   
-2. Navegue até o diretório do projeto:
-   
-   cd pucrs-petshop
-   
-3. Abra o arquivo `index.html` em um navegador web**.
 
 Estrutura de Arquivos
 pucrs-petshop/
@@ -79,6 +69,6 @@ pucrs-petshop/
 │──README
 
 Contato
-Para mais informações, entre em contato pelo e-mail: pucrspetshop.com
+Para mais informações, entre em contato @lnausan
 
 -
