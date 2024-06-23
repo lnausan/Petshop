@@ -2,7 +2,7 @@ README
 
 PUCRS PetShop
 
-Descrição
+Descrição:
 O PUCRS PetShop é um site desenvolvido para facilitar a compra de produtos e serviços para pets. O site oferece uma interface amigável e intuitiva, permitindo que os usuários naveguem facilmente entre as diferentes seções, como produtos, serviços, cadastro de usuário e agendamento de serviços.
 
 Funcionalidades
